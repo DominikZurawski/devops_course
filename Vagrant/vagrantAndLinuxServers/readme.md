@@ -7,16 +7,19 @@ choco install virtualbox --version=7.0.8 -y
 
 choco install vagrant --version=2.3.7 -y
 
-cd folder/
+
+## Some commands:
+`cd folder/`
 Start Virtual Machine:
-vagrant up     
+`vagrant up `    
                   
-vagrant box list
-vagrant status
+`vagrant box list`
+Check status VM:
+`vagrant status`
 
 Connect with VM:
-vagrant ssh
+`vagrant ssh`
 
 Stop:
-vagrant halt
+`vagrant halt`
 
