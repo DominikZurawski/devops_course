@@ -16,7 +16,6 @@ Start Virtual Machine:
 
 `vagrant up `    
                   
-`vagrant box list`
 
 Check status VM:
 
