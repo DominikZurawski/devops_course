@@ -1,0 +1,12 @@
+http://16.171.145.56:8080/job/build-pipeline/build?token=mybuildtoken
+
+Token
+admin:11890bc2d2c8d567b38211efae5c8403b8
+
+CRUMB
+wget -q --auth-no-challenge --user admin --password testpass1234! --output-document - 'http://16.171.145.56:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)'
+
+Jenkins-Crumb:467fe1d16ed7f0b3e7d690537f5336f14ada14de754986f29407194632d2edd3
+
+curl -I -X POST http://admin:11890bc2d2c8d567b38211efae5c8403b8@16.171.145.56:8080/job/build-pipeline/build?token=mybuildtoken -H "Jenkins-Crumb:467fe1d16ed7f0b3e7d690537f5336f14ada14de754986f29407194632d2edd3"
+
