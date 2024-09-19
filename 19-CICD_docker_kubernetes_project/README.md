@@ -15,3 +15,11 @@ FLOW OF EXECUTION
 7. Intall Helm in Kops VM
 8. Create Helm Charts
 9. Test Charts in K8s Cluster in test namespace ..
+10. Add Kops VM as Jenkins Slave
+11. Create Pipeline code [Declarative]
+12. Update Git Reposiroty with
+   - Helm Charts
+   - Dockerfile
+   - Jenkinsfile (Pipeline code)
+13. Create Jenkins job for Pipeline
+14. Run & Test the job.
